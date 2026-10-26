@@ -1,0 +1,26 @@
+﻿# Secrets - never commit these
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.egg-info/
+
+# Node / React
+**/node_modules/
+**/dist/
+**/build/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
